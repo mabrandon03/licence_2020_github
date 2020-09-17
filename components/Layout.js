@@ -1,11 +1,12 @@
 import React from 'react';
+import styles from '../styles/Home.module.css'
 
 
 const Layout = ({children}) => {
   return (
-    <div>
-      <main>{children}</main>
-    </div>
+    <main className={styles.main}>
+      {children}
+    </main>
   )
 }
 

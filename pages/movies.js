@@ -23,20 +23,21 @@ const movies = [
 const Movies = () => {
   return (
     <Layout>
-        <h2 className="text-2xl text_blue-400">Best movies</h2>
-        <ul>
+        <h2 className="text-4xl text-blue-700 font-bold tracking-wider uppercase">Best movies</h2>
+        <div className="mt-8 grid gap-8 grid-cols-3">
           {
             movies.map((movie)=>
-              <li>
+              <div>
                 <Movie
                   title={movie.title}
                   synopsis={movie.synopsis}
                   ratings={movie.ratings}
+                  pictureSrc="https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png"
                 />
-              </li>
+              </div>
             )
           }
-        </ul>
+        </div>
     </Layout>
   )
 }
