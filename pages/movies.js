@@ -1,5 +1,6 @@
 import React from 'react';
 import Movie from '../components/Movie';
+import Layout from '../components/Layout';
 
 const movies = [
   {
@@ -21,7 +22,7 @@ const movies = [
 
 const Movies = () => {
   return (
-    <div>
+    <Layout>
         <h2 className="text-2xl text_blue-400">Best movies</h2>
         <ul>
           {
@@ -36,7 +37,7 @@ const Movies = () => {
             )
           }
         </ul>
-    </div>
+    </Layout>
   )
 }
 
