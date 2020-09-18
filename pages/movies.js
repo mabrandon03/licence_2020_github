@@ -27,7 +27,7 @@ const movies = [
     title: "Tenet",
     synopsis: "Nulla tristique aliquet egestas. Nunc posuere dolor lorem, sit amet mattis mi sagittis nec. Nullam facilisis justo sit amet sem bibendum pretium.",
     ratings: 0,
-  }
+  },
     ]
 
 const Movies = () => {
