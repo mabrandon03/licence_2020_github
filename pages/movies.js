@@ -23,6 +23,11 @@ const movies = [
     synopsis: "Pellentesque mauris elit, vulputate eu sagittis ut, molestie vitae orci. Integer rutrum, ex vitae sodales sagittis, risus neque consequat libero, eget lacinia orci nibh et turpis.",
     ratings: 5,
   },
+  {
+    title: "Tenet",
+    synopsis: "Nulla tristique aliquet egestas. Nunc posuere dolor lorem, sit amet mattis mi sagittis nec. Nullam facilisis justo sit amet sem bibendum pretium.",
+    ratings: 0,
+  }
     ]
 
 const Movies = () => {
